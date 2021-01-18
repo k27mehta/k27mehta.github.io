@@ -1,0 +1,503 @@
+<html>
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-170631311-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-170631311-1');
+</script>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Kritika Mehta | Version Compare Feature</title>
+<link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+<link rel="stylesheet" href="../index.css">
+<link rel="shortcut icon" type="image/x-icon" href=".../Images/favicon.png">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="shortcut icon" type="image/x-icon" href="../Images/favicon.png">
+<script src="index.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar" id="top">
+            <div>
+                <a href="../index.html" class="logo">
+                    <img src="../Images/kritika_logo.png" class="logo-img" alt="Logo">
+                </a>
+            </div>
+        </div>
+        <div class="back-page">
+            <a href="../index.html"> 
+            <span>
+                <i class="left"></i>
+           </span>
+            </a>
+
+            <div class="project-title">
+                <p> 
+                    Version Compare Feature
+                </p>
+                <br>
+            </div>
+        </div>
+    </div>
+
+
+<div class="fixed-side-navbar">
+<ul class="nav">
+    <li><a href="#intro"><span>Project Context</span></a></li>
+    <li><a href="#sec0"><span>My Role</span></a></li>
+    <li><a href="#sec1"><span>Design Process</span></a></li>
+    <li><a href="#sec2"><span>Solution</span></a></li>
+    <li><a href="#sec3"><span>Learnings</span></a></li>
+</ul>
+
+</div>
+    
+    <div class="container-2">
+        <span class="project-intro">During my last co-op term at Blueprint Software Systems, I had the pleasure of working within the Product team and building out the version compare feature from conception to development. 
+        This feature would have a tremendous impact in improving the user-experience for stakeholders who would like version tracking in the Storyteller product.
+            
+            <img src="../Images/Laptop-Blueprint.png" alt="blueprint" class="full-preview">
+
+            <div class="case-study-section-info-container case-study-wider-container row">
+                <div class="col-md-8">
+                    <h3 class="case-study-small-title">Company</h3>
+                    <p class="case-study-small-text">
+                        Blueprint Software Systems is an agile planning and compliance management software vendor. Their
+                        <a href="https://www.blueprintsys.com/storyteller">Storyteller</a> product drives cross-functional collaboration 
+                         to decompose high-level business initiatives into actionable IT deliverables.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="case-study-small-title">Tools</h3>
+                        <p class="case-study-small-text">Figma, Sketch, Journey Mapping, ReactJS, HTML, CSS, Usertesting.com, Jira, Trello</p>
+                </div>
+                <div class="col-md-8">
+                    <h3 class="case-study-small-title">Tags</h3>
+                    <p class="case-study-small-text"> Product Management, Functional Prototype, Competitive Analysis,  Wireframing, User Research </p>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="case-study-small-title">Timeline</h3>
+                        <p class="case-study-small-text">4 Month Internship</p>
+                </div>
+                </div>
+        <section id="intro" class="sections">
+                <h1>Project Context</h1>
+                <p class="section-text">During this internship, I got the opportunity to manage the creation of an essential feature while learning about <b>feature scoping, minimum viable product, prioritizing requirements,</b> and <b>setting the feature's vision</b>.
+                <br>
+                <br>
+                I was tasked to design the feature and collaborate with developers, UX researchers, and product managers to build a valuable feature that would part of the Storyteller Product in the 2019 release. 
+                
+                <div class="col-md-2 project-captions">
+                        <p class="case-study-small-text"> Problem: </p>
+                </div>
+                <div class="col-md-9" style="padding-top: 15px">
+                        <p class="case-study-small-text">
+                        <b>Implement the version compare feature into the Storyteller product as a minimum viable product.</b>
+                    </p>
+                </div>
+
+                <div class="col-md-2 project-captions" id="goals">
+                    <p class="case-study-small-text"> Goals: </p>
+                </div>              
+                <div class="col-md-9">
+                <p class="case-study-small-text">
+                    <ul class="goals-list">
+                        <b>
+                        <li>Design and develop a feature that is consistent with the Storyteller product</li>
+                        <li>Design the version tracking feature considering all edge cases</li>
+                        <li>Validate feature solution through usability testing</li>
+                        </b>
+                    </ul>
+                </p>
+                </div>
+            
+                </p>
+                <div class="company-info">What is the Storyteller Product?</div>
+                <span>               
+                     <img src="../Images/storyteller_logo.png" alt="blueprint" class="image-product">
+                </span>
+                <br>
+                
+                <a href="https://www.blueprintsys.com/storyteller">Storyteller</a> is a powerful requirements solution that allows users to collaboratively author, validate, 
+                and manage requirements for software projects. It also provides integration capabilities with other applications such as Jira. 
+                The application is designed for anyone who authors or works with requirements otherwise known as artifacts, including but not limited to: business and system 
+                analysts, architects, developers, quality assurance analysts, business stakeholders and customers.
+                <br><br>
+                As mentioned, an artifact refers to a requirement in the Storyteller product. The application supports a variety of base artifact types, 
+                including: textual requirements, use cases, UI mockups, business process diagrams, generic diagrams, storyboards, documents, and glossaries.
+
+                <br><br>
+
+                With more product insight, it was understood that version compare would be an essential feature as it will automate analysis instantly by
+                visualizing changes between artifact versions.
+
+
+                <br><br>
+
+                <div class="col-md-3 project-captions">
+                        <p class="case-study-small-text" id="problem-statement"> <b>Problem Statement:</b> </p>
+                </div>
+                <div class="col-md-9" style="padding-top: 15px">
+                        <p class="case-study-small-text">
+                        <b>Lack of artifact analysis to accurately highlight changes between versions.</b>
+                    </p>
+                </div>
+            </span>
+        </section>
+        <section id="sec0" class="sections" style="padding-top: 100px">
+                <h1>My Role</h1>
+                <p class="section-text">At Blueprint Software Systems, I was given a lot of independence, so I got the opportunity to direct the vision of 
+                    this feature in the given timeline. Some of my work included:
+                <ul class="roles">
+                        <li>Conducting competitive analysis to prioritize and scope out minimum viable feature requirements</li>
+                        <li>Seting the project vision using user research, design considerations, and, wireframes</li>
+                        <li>Working with developers to scope feature cost, and reduce implementation time and budget</li>
+                        <li>Making data-driven decisions using Pendo Analytics, Usertesting.com, Google Analytics, & in-person interviews  </li>
+                </ul>
+                </p>
+                <div class="impact">
+                        <h3 class="case-study-small-title">The Impact</h3>
+                        <p class="case-study-small-text"> 
+                        The team is now beta testing the feature to better understand its usability and finishing up development on feature details.
+                        </p>
+                        
+                    </div>
+                    <div>
+                        <h3 class="case-study-small-title"></h3>
+                            <p class="case-study-small-text">The feature will impact many stakeholders in significantly reviewing changes between versions and adds to the Storyteller product line  
+                                    as a valued feature by customers.</p>
+                </div>
+        </section>
+
+        <section id="sec1" class="sections">
+                <h1>Design Process</h1>
+                <p class="section-text">I started by looking at different products with the version compare feature to scope out requirements for the minimum viable feature that I wanted to design. 
+                    I took some time to understand the Storyteller application to understand how the feature will fit into the application.</p>
+                    <div class="col-md-6">
+                        <h3 class="case-study-small-title">Competitive Analysis</h3>
+                        <p class="case-study-small-text"> Google Docs: 
+                            <ul style="list-style-type: square; font-size: 14px;">
+                                <li>Revert to old versions easily</li>
+                                <li>Lists number of changes</li>
+                                <li>Inline and visual version comparsion</li>
+                                <li>Can also rename or name unnamed versions</li>
+                            </ul>
+                        </p>    
+                        <br>  
+                        <p class="case-study-small-text"> InVision: 
+                                <ul style="list-style-type: square; font-size: 14px;">
+                                    <li>Can select the History mode icon</li>
+                                    <li>No comparison between versions</li>
+                                    <li>Cannot restore old versions</li>
+                                </ul>
+                        </p>                      
+                    </div>
+                    <div class="col-md-6">
+                        <h3 class="case-study-small-title" style="margin-top: 25px;"></h3><br>
+                        <p class="case-study-small-text"> Github: 
+                                <ul style="list-style-type: square; font-size: 14px;">
+                                        <li>Local/Individual & Centralized/Remote Workflow</li>
+                                    <li>Unified/Split View when merging two different versions</li>
+                                    <li>Green indicates added text, while red indicates removed text</li>
+                                </ul>
+                            </p>  
+                            <br>
+                            <p class="case-study-small-text"> Dropbox: 
+                                    <ul style="list-style-type: square; font-size: 14px;">
+                                        <li>View individual versions without comparison</li>
+                                        <li>Can restore to an older version</li>
+                                        <li>Local/Individual Workflow</li>
+                                    </ul>
+                            </p>     
+                    <br>
+                    </div>                   
+                    <div>
+                            <img src="../Images/VC_GoogleDocs.png" alt="blueprint" class="image-competitive">
+                            <figcaption class="zoom-caption">Google Docs' Version Compare Feature</figcaption>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <div class="col-md-3 impact space">
+                            <span>
+                                    <img src="../Images/user-research.png" alt="user" class="user-img">
+                            </span>
+                            <h3 class="case-study-small-title center-caption">User Research</h3>
+                    </div>
+                    <br>
+                    <div class="col-md-9">
+                            <p class="case-study-small-text"> 
+                            I conducted interviews with stakeholders to better understand their pain points. These interviews were conducted on customers that had requested for the version compare feature and were done via video calling.
+                            to better understand the operational perspective of the version compare feature.
+                            I also spoke with product managers and developers 
+                            at work to avoid feature creep - the tendency for feature requirements to increase development work.
+                          </p>    
+                    </div>
+                    <br>
+                    <br>
+                    <div style="padding-top: 120px">
+                    <div class="col-md-3 impact space">
+                            <span><img src="../Images/thumbs-up.png" alt="user" class="user-img"></span>
+                            <h3 class="case-study-small-title center-caption">Feature Value</h3>
+                        </div>
+                        <div class="col-md-9">
+                        <p class="case-study-small-text space"> 
+                                Through workflow analysis, I learned that stakeholders valued this feature as it:
+                                <ul style="list-style-type: square; font-size: 14px;">
+                                <b>
+                                <li>streamlined artifact analysis
+                                accurately with changes visualized
+                                between versions</li>
+            
+                                <li>supported the audit process with ease to report
+                                on change as artifact changes would be easy to visualize. </li></b>
+                                </ul>
+                        </p>    
+                        </div>
+                    </div>
+                   
+                    <div style="padding-top: 180px">
+                        <div class="col-md-3 impact space">
+                                <span>
+                                        <img src="../Images/insights.png" alt="user" class="user-img">
+                                </span>
+                                <h3 class="case-study-small-title center-caption">Insights</h3>
+                        </div>
+                        <div class="col-md-9">
+                            <p class="case-study-small-text"> 
+                                From the user interviews, some common themes extracted include:
+                                <ul style="list-style-type: square; font-size: 14px;">
+                                    <b>
+                                    <li>high-level comparsion between two previous versions of artifact were requested by stakeholders who are approvers or reviewers of artifacts</li>
+                                    <li>reverting to previous artifact state should result in the restoration of all values </li> 
+                                    <li>users who don't want to restore all values prefer to select specific values or attributes from a previous version to restore.</li>
+                                    </b> 
+                                </ul>
+                                    
+                            </p>    
+                        </div>
+                        <div style="padding-top: 190px">
+
+                                The version compare feature was more than just the <a href="#problem-statement"><span>problem statement </span></a> stated. The feature involved the ability to revert to a previous version and merge values of two different artifact versions
+            
+                                <br><br>
+            
+                                It was important to prioritize based on impact, development time, and budget.
+
+                                <br><br>
+                        </div>
+            
+                            <div class="impact">
+                                    <h3 class="case-study-small-title">Design Considerations</h3>
+                                    <p class="case-study-small-text"> 
+                                    <ul style="list-style-type: square; font-size: 16px;">
+
+                                    <li>Entry point to feature will be the history card where all versions are displayed as seen in the <a href="https://www.figma.com/proto/xtAj393zAPpsMvOGjFMBek/Non-VC_UI?node-id=11%3A4&scaling=min-zoom" class="link-ui">initial UI which lacks the feature</a></li>
+                                    
+                                    <li>Version compare feature will be designed side-by-side or inline 
+                                    </li>
+                                    <li>Feature add-ons will include revert and merge functionality 
+                                    </li>
+                                    </ul>
+                                    </p>
+                                
+                            </div>
+                            <br>
+                            <div class="impact">
+                                    <h3 class="case-study-small-title">Proposed Design Solutions</h3>
+                                    <div style="padding-top: 10px; width:130%;">
+                                        I prioritized the design considerations and proposed a solution in an engineering and product team meeting.  
+                                        <br><br>
+                                        <a href="https://www.figma.com/proto/xtAj393zAPpsMvOGjFMBek/Non-VC_UI?node-id=11%3A4&scaling=min-zoom" class="link-ui">The previous utility panel seen here</a> had 
+                                        4 new functionalities introduced in the history tab with the proposed design: <span style="font-style: italic;">revert, merge, rename, and, version compare.</span>
+                                    </div>
+                                    <div style="display: flex; padding-top: 20px;" id="version-card">
+                                        <img src="../Images/VC_Modal_UI.png" alt="blueprint" class="image-modal-ui">
+                                        <img src="../Images/VC_Modal_UI_2.png" alt="blueprint" class="image-modal-ui">
+                                    </div>
+                                    <figcaption class="zoom-caption" style=" margin-top: 20px; width:120%;">Utility Panel UI with Feature Icons</figcaption>
+                                    <br>
+                                    <div style="padding-top: 40px; width:130%;">
+                                        The version compare icon was the entry point to view the comparsion between two artifacts. For this, I had two design solutions ideated from user interviews - <a href="https://www.figma.com/proto/xtAj393zAPpsMvOGjFMBek/Non-VC_UI?node-id=11%3A7&scaling=min-zoom">a single panel view</a> and <a href="https://www.figma.com/proto/xtAj393zAPpsMvOGjFMBek/Non-VC_UI?node-id=11%3A10&scaling=min-zoom">a side-by-side comparsion view.</a> 
+                                        <br><br><br>
+                                        <div>
+                                            <img src="../Images/single_panel_VC.png" alt="blueprint" class="image-design-solution-1">
+                                            <figcaption class="zoom-caption" style="margin-left: 20px; padding-top:10px;">Version Compare Single Panel Design</figcaption>
+                                        </div>
+                                        <br><br>
+                                        <br>
+                                        <div>
+                                            <img src="../Images/side-by-side_vc.png" alt="blueprint" class="image-design-solution-2">
+                                            <figcaption class="zoom-caption" style="margin-right: 30px; padding-top:10px;">Side-by-side Version Compare Design</figcaption>
+                                        </div>
+                                        <br><br>
+                                        <div style="padding-top: 10px; width:97%;">
+                                            <h3 class="case-study-small-title">Solutions Explored</h3>
+                                            To better understand which design solution to go with, I explored the user experience and considered the risks associated 
+                                            with each design. Some users liked the inline version compare design, but some preferred to see both versions side-by-side. 
+                                            After various discussions with the product and engineering teams, I decided on the single panel design solution as it:
+                                            <ul style="list-style-type: square; font-size: 16px; padding-top: 20px;">
+                                                <b>
+                                                <li>easily fit into the UI frame provided in the Storyteller application</li>
+                                                <li>required for less development work as the side-by-side view would result in more code change </li> 
+                                                <li>and was consistent with the application I was building for, which was one of my <a href="#goals" class="link-ui">initial goals.</a></li>
+                                                </b> 
+                                                </ul>
+                                        </div>
+
+                                        <div style="padding-top: 20px; width:97%;">
+                                            <h3 class="case-study-small-title">Feature implementation</h3>
+                                            Once a design solution was selected, it was important to understand the work behind the feature. Front-end libraries were explored to ensure that the feature's functionality worked as promised to user. 
+                                             <br><br>
+                                            <b>Edge cases</b> were important to consider as the Storyteller product allows users to create lists, tables, lists within tables, and other cases. 
+                                            It is essential to understand how version compare would work for all use cases in order to prioritize requirements for the minimum viable feature.
+                                            <br><br>
+                                            
+                                            Considering these edge cases, the front-end developers and I decided to use DaisyDiff, a Java library in order to implement this feature into the Storyteller application.
+                                            We analyzed how the DaisyDiff library performed under the various edge cases looking at the differences in text. The library perform well for the basic use cases such as understanding textual changes in lists, tables, and plain text. Despite having some bugs that didn't associate with the major use cases, the library was chosen as it went above and beyond by capturing style changes.
+
+
+                                                <div>
+                                                    <img src="../Images/html_diff.png" alt="blueprint" class="img-feature_implementation" style="width:80%; margin-top:50px;">
+                                                    <figcaption class="zoom-caption" style="margin-right: 20px; padding-top:10px;">Analysis of Edge Cases Using DaisyDiff Library</figcaption>
+                                                </div>
+                                            
+                                                <br>
+                                                <br>
+                                            <h3 class="case-study-small-title">Iterative Design Process</h3>
+                                           Before breaking down the user requirements and technical user stories for the version compare feature, I analyzed the new user experience with quick mockups on Figma. 
+                                           Here I realized that the user experience could be kept consistent if existing components in the Storyteller application were reused.                                               
+                                           <br>
+                                           <br>
+                                           <b>Reusing components</b> was important as it creates a consistent user experience. 
+                                           <br>
+                                           <br>
+                                        
+                                            The Relationships Tab consisted of the expand details arrow link and a checkbox for each relationship card which could be used for the History Tab version cards to implement
+                                             the version compare functionality. Previously, the <a href="#version-card">version cards</a> had to be individually selected and had no checkboxes to indicate which two cards were selected for the version compare feature. Hence, reusing of Relation Tab components would decrease 
+                                             development time.                                             
+                                            <br>
+                                            <br><br>
+                                            
+                                            <div>
+                                                <img src="../Images/reuse_componenet.png" alt="blueprint" class="image-design-solution-1">
+                                                <figcaption class="zoom-caption" style="margin-left: 20px; padding-top:10px;">Version Compare Single Panel Design</figcaption>
+                                            </div>
+
+                                            <br>
+                                            <br>
+                                            In addition to these design changes, workflow changes were required so that the user is able to select two version cards in order to perform version compare.
+                                            This became a complex issue as checkboxes are a symbol of multiple selection but the version compare functionality would only occur if two version cards were selected. 
+                                        </div>
+                                    </div>
+                            </div>                                
+                    </div>
+    
+        </section>
+
+        <section id="sec2" class="sections" style="padding-top: 50px;">
+                <h1>Solution</h1><br>
+                Through iteration it was understood that the version compare feature would be more consistent with the whole application if it reused components found in other Utility Panel tabs such as the Relationship Tab. I explored several different solutions and workflows before coming up with a proposal. Inspired by the application Ritual which I used to order my lunch meals, I found a way to keep the application consistent with checkboxes while comparing two versions at a time. 
+                <br><br>
+                Using Ritual almost every other day provided for a user experience that I found useful in building out the version compare feature. When I used to select my salad toppings, I realized that once I had exceeded the limit of toppings for the meal then the UI automatically deselected the first topping I chose. This user experience was suitable for the version compare feature as the user could select multiple versions but the version compare icon would only occur on the last two versions selected. 
+                <br><br><br><br>
+                <div>
+                    <video class="video-border" autoplay="autoplay" controls="controls" muted="" style="width: 400px;">
+                    <source src="../Images/ritual_feature.mov">
+                  </video>
+                  <figcaption class="zoom-caption" style="margin-left: 20px; padding-top:10px;">Selecting Salad Greens on the Ritual Application</i></figcaption>
+                </div>
+                <br><br>
+                The version compare feature became a solid feature using existing components and the slection concept discovered using the Ritual application. The selection concept was used to select version cards for comparsion. 
+                When two versions were selected then the History tab header would display icons. These icons included the version compare and merge feature. The revert icon was placed on the bottom left of all but the latest version, so that the user can easily revert to any version easily.
+                <br><br>
+                <br><br>
+
+                <div>
+                    <video class="video-border" autoplay="autoplay" controls="controls" muted="" style="width: 900px;">
+                    <source src="../Images/final_feature.mov">
+                  </video>
+                  <figcaption class="zoom-caption" style="margin-left: 20px; padding-top:10px;">Version Compare Feature Demo with Revert and Merge</i></figcaption>
+                </div>
+                <br><br>
+
+                The final solution included the version compare modal which was built resuing artifact's user interface. As seen in the video, the modal for version comparison looks similar to
+                the user interface behind the modal with comparsion shows in red and green. The merge functionality was labelled as 'Restore Select Values' which was another reused component from the Relationships tab.
+                This modal highlighted key property changes and allowed the user to merge two different versions. The user is also provided with a summary of the merges in the 'Summary' tab of this modal.
+                Essentially, this merge modal was easy to reuse as it captured essential values that users would look at when comparing two different versions.
+
+                <br><br>
+                One of the main features for this feature set was revert, which allowed the user to restore all values of a previous version. When writing out the user stories for this feature, I realized that all but the latest version 
+                could be used as a possible version that a user would like to restore. If there is only one version then reverting was not an option. To simplify the experience, reevert icons were in all but the latest version. 
+
+                <br><br>
+                Additionally, use cases that were raised during user interviews were considered. For example, some stakeholders wanted a simple version comparsion between any version selected and its pervious version.
+                To capture this use case, I made use of the version cards and the expand button in order to provide major details that highlighted changes between a version and its previous state. 
+                These major details included relationship, property, and files (attachments and documents) changes with count. 
+
+                <br><br>
+                <!-- <div style="padding-top: 20px; width:97%;">
+                    <h3 class="case-study-small-title">Feature implementation</h3>
+                    Once a design solution was selected, it was important to understand the work behind the feature. Front-end libraries were explored to ensure that the feature's functionality worked as promised to user. 
+                     <br><br>
+                    <b>Edge cases</b> were important to consider as the Storyteller product allows users to create lists, tables, lists within tables, and other cases. 
+                    It is essential to understand how version compare would work for all use cases in order to prioritize requirements for the minimum viable feature.
+                    <br><br>
+                    
+                    Considering these edge cases, the front-end developers and I decided to use DaisyDiff, a Java library in order to implement this feature into the Storyteller application.
+                    We analyzed how the DaisyDiff library performed under the various edge cases looking at the differences in text. The library perform well for the basic use cases such as understanding textual changes in lists, tables, and plain text. Despite having some bugs that didn't associate with the major use cases, the library was chosen as it went above and beyond by capturing style changes.
+
+
+                        <div>
+                            <img src="../Images/html_diff.png" alt="blueprint" class="img-feature_implementation" style="width:80%; margin-top:50px;">
+                            <figcaption class="zoom-caption" style="margin-right: 20px; padding-top:10px;">Analysis of Edge Cases Using DaisyDiff Library</figcaption>
+                        </div>
+                </div> -->
+        </section>
+
+        <section id="sec3" class="sections">
+                <h1>Learnings</h1>
+                <br>
+                Throughout this experience, I was able to work with various teams and learn many new things!
+                This was my first expereince in the field of product management and a memorable one.
+                I wore many different hates as I executed a feature from conception to development.
+                <br><br>
+                It was a very unique and different role than I was used to,
+                 so I had to learn a lot while executing an essential feature. There was a lot of focus on communicating with different teams like
+                 Sales, Marketing, Developers, and Product to ensure transparency and results. When I left this internship, the minimum viable feature was on beta and 
+                 ready for testing and iteration. 
+                 <br><br>
+                 In the end, this was one of my favourite internships as it provided a foundation to understanding the role of a product manager and the importance of
+                 product scoping, prioritization, and execution.
+
+        </section>
+    </div>
+    </div>
+</div>
+
+<div class="footer">
+    <p> Built by Kritika with <i class="fa fa-coffee"></i> &amp;  <i class="fa fa-laptop"></i>
+    <span><a href="#top" style="align-items:right;"> 
+        <div class="category-chips" style="padding-top:25px;">
+            <div class="text-chip">
+                <h4 class="chip">Back to Top &#8593;
+                </h4>
+            </div>
+                <!--<h4 class="chip">Check it out</h4></div>-->
+        </div>
+    </a>
+    </span>
+    </p>
+</div>
+
+</body>
+</html>
+
